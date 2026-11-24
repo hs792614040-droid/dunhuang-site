@@ -1,0 +1,68 @@
+// 展示素材仅作配图；无权威出处的图像不标注为某一具体洞窟作品。
+export const history = [
+['366年','前秦建窟','据《李克让重修莫高窟佛龛碑》记载，乐僔在此开窟，莫高窟的营建由此起步。','banner.png'],
+['北魏—隋唐','营建与鼎盛','北朝持续营建，隋唐时期发展繁盛，成为丝路沿线重要的宗教与文化中心。','bg8.jpg'],
+['宋—元','延续与渐衰','宋、西夏与元时期仍有营建，随后因交通格局与地区环境变化逐渐沉寂。','bg9.jpg'],
+['1900年','藏经洞发现','王圆箓发现藏经洞，大批古代文献和文物重见天日。','dunhuangxue3.jpg'],
+['20世纪','流散与保护','部分文物陆续流散海外；1944年国立敦煌艺术研究所成立，保护研究走向系统化。','banner.png'],
+['1987年','列入世界遗产','莫高窟列入联合国教科文组织《世界遗产名录》。','bg8.jpg']
+]
+export const art = [
+{ group:'壁画题材', title:'佛传', text:'以释迦牟尼生平为线索，以连续或分幅画面呈现宗教叙事。', image:'his2.jpg' },
+{ group:'壁画题材', title:'经变', text:'将佛经义理转化为可见的场景，关注画面结构、人物组织与色彩层次。', image:'dunhuangxue3.jpg' },
+{ group:'壁画题材', title:'飞天', text:'衣带与姿态构成流动的线条，展现腾空飞行的轻盈意象。', image:'his1.jpg' },
+{ group:'壁画题材', title:'供养人', text:'通过服饰、姿态与排列观察供养人图像的视觉表达。', image:'wenhua2.png' },
+{ group:'彩塑风格', title:'从清秀到丰润', text:'北朝造像常见清秀挺拔的形象，隋唐造像更显丰润自然；不同作品仍各具个性。', image:'wenhua1.png' },
+{ group:'建筑形制', title:'禅窟', text:'以禅修为主要功能，观察主室与小禅室的空间关系。', image:'banner.png' },
+{ group:'建筑形制', title:'中心塔柱窟', text:'以中心塔柱组织礼拜空间，形成可绕行的动线。', image:'bg5.jpg' },
+{ group:'建筑形制', title:'覆斗顶窟', text:'窟顶形如倒置的斗，四面斜坡向顶部方形藻井聚合。', image:'bg8.jpg' },
+{ group:'代表洞窟', title:'第45窟', text:'重点欣赏盛唐彩塑群像的比例、姿态与神情。', image:'editorial/cave-45.webp' },
+{ group:'代表洞窟', title:'第57窟', text:'重点关注人物描绘、装饰细节与细腻设色。', image:'editorial/cave-57.webp' },
+{ group:'代表洞窟', title:'第220窟', text:'重点欣赏初唐经变画中的场景组织与乐舞构图。', image:'editorial/cave-220.webp' }
+]
+export const silkroad = [
+{group:'敦煌乐舞',title:'反弹琵琶',text:'反手持琴的舞姿，将演奏与身体节奏融为一体，是敦煌乐舞的鲜明意象。',image:'wu1.png'},
+{group:'敦煌乐舞',title:'敦煌舞',text:'以曲线、手姿与流动的衣带表达东方舞蹈的韵律。',image:'wu2.png'},
+{group:'特色饮食',title:'驴肉黄面',text:'筋道的黄面配以驴肉，是认识敦煌地方风味的一种方式。',image:'editorial/yellow-noodles.webp'},
+{group:'特色饮食',title:'杏皮水',text:'以杏皮熬制的酸甜饮品，承载着绿洲城市的日常滋味。',image:'editorial/apricot-drink.webp'},
+{group:'民俗与非遗',title:'节庆与手工艺',text:'从地方节庆、剪纸到传统手工制作，观察生活中的文化传承。',image:'editorial/paper-cut.webp'},
+{group:'贸易与交流',title:'驼铃之间的相遇',text:'丝路贸易将织物、物产与技艺带到绿洲，也推动了语言、音乐和生活方式的交流。',image:'banner1.png'}
+]
+export const activities = [
+{title:'丝路研学营',duration:'3小时',price:168,audience:'亲子 / 学生',image:'dunhuangxue3.jpg',text:'以主题讲解与观察任务培养文化兴趣。'},
+{title:'夜游莫高窟主题体验',duration:'1.5小时',price:198,audience:'成人 / 文化爱好者',image:'banner.png',text:'夜间主题活动概念展示，非景区已开放项目。'},
+{title:'壁画临摹课',duration:'2小时',price:128,audience:'绘画初学者 / 12岁以上',image:'his1.jpg',text:'在纸面体验线描、配色与传统纹样。'},
+{title:'沙漠骑行',duration:'2.5小时',price:238,audience:'有骑行基础的成人',image:'bg4.jpg',text:'在专业带领下体验沙地运动，活动受天气影响。'},
+{title:'敦煌乐舞演出',duration:'75分钟',price:158,audience:'全年龄',image:'wu2.png',text:'以音乐与舞蹈感受丝路的艺术表达。'}
+]
+export const trips = [
+{days:'一日游',theme:'亲子',title:'初见敦煌',plan:[['第一日','莫高窟 → 鸣沙山月牙泉','约7小时','景点间用车衔接，景区内步行，午间留出休息时间。']]},
+{days:'两日游',theme:'摄影',title:'沙海与关隘',plan:[['第一日','莫高窟 → 鸣沙山月牙泉','约7小时','用车衔接，下午为沙海光影预留时间。'],['第二日','玉门关 → 阳关','约8小时','西线景点用车串联，各点步行取景。']]},
+{days:'三日游',theme:'深度文化',title:'丝路慢读',plan:[['第一日','莫高窟','约5小时','集中步行参观，余下时间休息整理。'],['第二日','玉门关 → 阳关','约8小时','用车串联两处关隘，预留途中休息。'],['第三日','鸣沙山月牙泉','约4小时','用车往返，景区内步行，放慢节奏。']]},
+{days:'两日游',theme:'亲子',title:'陪孩子读敦煌',plan:[['第一日','莫高窟','约5小时','分段参观，留足休息与交流时间。'],['第二日','鸣沙山月牙泉','约4小时','用车往返，选择体力允许的步行范围。']]},
+{days:'三日游',theme:'摄影',title:'光影留白',plan:[['第一日','鸣沙山月牙泉','约5小时','用车衔接，步行寻找光影。'],['第二日','玉门关 → 阳关','约8小时','沿线用车，遗址内步行。'],['第三日','莫高窟','约5小时','以参观为主，遵守现场拍摄规定。']]},
+{days:'一日游',theme:'深度文化',title:'专注一座窟',plan:[['第一日','莫高窟','约6小时','留出完整参观与整理时间，景区内步行。']]}
+]
+export const guide = [
+{title:'门票与预约',items:['通过莫高窟官方预约渠道选择日期与票型。','按页面要求填写参观人信息并完成预约，保存凭证。','按预约时段抵达，携带有效证件；退改规则以官方公布为准。']},
+{title:'开放时间',items:['开放时段会随季节、天气及保护工作调整。','本站不发布未经核实的固定营业时间；请在出发前查询官方预约页面及当日公告。']},
+{title:'抵达与交通',items:['飞机：查询敦煌莫高国际机场航班，再安排到市区的接驳。','火车：根据车票确认到达站点，提前规划市区接驳。','市区到景区：可查询景区专线、出租车或合规包车，确认返程时间。']},
+{title:'住宿怎么选',items:['沙州城区：餐饮和生活配套集中，适合初次到访。','鸣沙山周边：便于安排早晚活动，预订前确认交通与设施。','旺季提前预订，核对退改政策、位置与真实评价。']},
+{title:'季节与行李',items:['春秋通常较舒适，夏季日晒强，冬季需注意保暖与开放调整。','准备防晒、饮水、舒适步行鞋与应对昼夜温差的外套。']},
+{title:'注意事项与常见问题',items:['不触碰壁画、彩塑；洞窟内按规定禁拍时请勿拍摄。','预约名额不足怎么办？查询官方其他日期与合规票型，不购买来历不明的票。','天气变化怎么办？关注官方通知，保留行程弹性。']}
+]
+export const goods = [
+{category:'书签',name:'飞天黄铜书签',image:'products/bookmark.png',source:'飞天衣带的流动线条',note:'具体壁画出处待核验'},
+{category:'丝巾',name:'敦煌纹样丝巾',image:'editorial/silk-scarf.webp',source:'壁画色彩与藻井纹样',note:'款式参考图 · 展示图片与概念选品并非同一商品'},
+{category:'摆件',name:'九色鹿主题烛台',image:'products/jiaju2.png',source:'莫高窟第257窟《鹿王本生图》主题',note:'主题关联，非文物复制品'},
+{category:'书籍',name:'敦煌色彩笔记',image:'editorial/notebook.webp',source:'壁画矿物色与莲花纹样',note:'敦煌主题笔记本参考图 · 非本站自有商品'},
+{category:'联名款',name:'敦煌主题魔方',image:'products/mofang.png',source:'飞天、藻井与九色鹿主题组合',note:'联名概念展示，未指称实际品牌合作'},
+{category:'书签',name:'经卷流苏书签',image:'products/shuqian1.png',source:'写经书写形式与装饰纹样',note:'具体壁画出处待核验'}
+]
+export const news = [
+  { image:'editorial/news-conservation.webp', category: '文物保护', title: '潜心护宝 薪火相传', date: '2026-11-16', text: '敦煌研究院介绍石窟监测、壁画保护与保护研究的工作进展。', url: 'https://www.dha.ac.cn/info/1019/8061.htm' },
+  { image:'editorial/news-culture.webp', category: '文化新闻', title: '敦煌文化遗产保护经验走向世界', date: '2026-11-16', text: '从国际文化交流与沉浸式演出看敦煌保护经验的传播。', url: 'https://www.dha.ac.cn/info/1019/8064.htm' },
+  { image:'editorial/news-forum.webp', category: '文化新闻', title: '第九届“丝路之光——敦煌服饰文化论坛”举办', date: '2026-11-12', text: '敦煌研究院与北京服装学院联合举办论坛，交流敦煌服饰研究与传承。', url: 'https://www.dha.ac.cn/info/1019/8052.htm' },
+  { image:'editorial/exhibition.webp', category: '展览通知', title: '敦煌研究院展览公告', text: '查看常设展览和历年展览信息。', url: 'https://www.dha.ac.cn/clzl.htm' },
+  { image:'editorial/mogao-exterior.webp', category: '活动变更', title: '活动与开放公告', text: '查询官方通知，核对活动调整与临时开放变化。', url: 'https://www.dha.ac.cn/xwzx/tzgg.htm' }
+]
